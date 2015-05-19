@@ -75,7 +75,7 @@ export function branch(Component, specs = {}) {
     }
 
     // On component mount
-    componentWillMount() {
+    componentDidMount() {
       if (!this.facet)
         return;
 
